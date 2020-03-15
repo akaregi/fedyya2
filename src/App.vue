@@ -25,7 +25,7 @@
 
         <main class="container content">
           <section class="section">
-            <transition appear>
+            <transition mode="out-in">
               <router-view />
             </transition>
           </section>
@@ -46,15 +46,16 @@ export default class App extends Vue { }
 </script>
 
 <style lang="scss" scoped>
-.v-leave-to, .v-leave-active {
-  visibility: collapse;
+.v-enter-active {
+  transition: all .3s ease;
 }
 
-.v-enter-to, .v-enter-active {
-  transition: opacity 1s;
+.v-leave-active {
+  transition: all .3s cubic-bezier(1.0, 0.5, 0.8, 1.0);
 }
 
-.v-enter {
+.v-enter, .v-leave-to {
+  transform: translateX(10px);
   opacity: 0;
 }
 
