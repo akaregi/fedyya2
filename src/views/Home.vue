@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <h1>Home</h1>
+    <h1 class="title">fedyya Main Page</h1>
+    <h2 class="subtitle">Welcome to <i>fedyya</i></h2>
   </div>
 </template>
