@@ -1,9 +1,10 @@
 <template>
-  <div class="home">
+  <div class="works">
     <Hero>
-      <h1 class="title is-1">fedyya Main Page</h1>
-      <h2 class="subtitle is-3">Welcome to <i>fedyya</i></h2>
+      <h1 class="title is-1">Works</h1>
+      <h2 class="subtitle is-3">有耶無耶な何かの紹介</h2>
     </Hero>
+
   </div>
 </template>
 
@@ -12,7 +13,7 @@ import Hero from '@/components/Hero.vue'
 
 export default {
   mounted: () => {
-    document.title = 'Main - fedyya'
+    document.title = 'Works - fedyya'
   },
   components: {
     Hero
