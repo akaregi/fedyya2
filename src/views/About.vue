@@ -40,14 +40,13 @@
 </template>
 
 <script lang="ts">
+import { Component, Vue } from 'vue-property-decorator'
 import Hero from '@/components/Hero.vue'
 
-export default {
-  mounted: () => {
+@Component({ components: { Hero } })
+export default class About extends Vue {
+  mounted () {
     document.title = 'About - fedyya'
-  },
-  components: {
-    Hero
   }
 }
 </script>

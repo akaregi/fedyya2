@@ -9,14 +9,13 @@
 </template>
 
 <script lang="ts">
+import { Component, Vue } from 'vue-property-decorator'
 import Hero from '@/components/Hero.vue'
 
-export default {
-  mounted: () => {
+@Component({ components: { Hero } })
+export default class Works extends Vue {
+  mounted () {
     document.title = 'Works - fedyya'
-  },
-  components: {
-    Hero
   }
 }
 </script>

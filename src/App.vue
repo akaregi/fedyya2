@@ -38,13 +38,11 @@
 </template>
 
 <script lang="ts">
+import { Component, Vue } from 'vue-property-decorator'
 import Footer from '@/components/Footer.vue'
 
-export default {
-  components: {
-    Footer
-  }
-}
+@Component({ components: { Footer } })
+export default class App extends Vue { }
 </script>
 
 <style lang="scss" scoped>
