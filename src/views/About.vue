@@ -1,9 +1,6 @@
 <template>
   <div class="about">
-    <Hero>
-      <h1 class="title is-1">About the author</h1>
-      <h2 class="subtitle is-3">「あかれぎ」の真相に迫る</h2>
-    </Hero>
+    <TitleHero title="About the author" subtitle="「あかれぎ」の真相に迫る" />
 
     <figure class="image">
       <img class="is-rounded" src="https://www.gravatar.com/avatar/6a8bcd15f79dcc2e30138080702b1b09?s=256" alt="akaregi's avatar">
@@ -41,9 +38,9 @@
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator'
-import Hero from '@/components/Hero.vue'
+import TitleHero from '@/components/TitleHero.vue'
 
-@Component({ components: { Hero } })
+@Component({ components: { TitleHero } })
 export default class About extends Vue {
   mounted () {
     document.title = 'About - fedyya'

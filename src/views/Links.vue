@@ -1,9 +1,6 @@
 <template>
   <div class="links">
-    <Hero>
-      <h1 class="title is-1">Links</h1>
-      <h2 class="subtitle is-3">外部サイトへのリンク集</h2>
-    </Hero>
+    <TitleHero title="Links" subtitle="外部サイトへのリンク集" />
 
     <h3>あかれぎ関連</h3>
 
@@ -14,9 +11,9 @@
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator'
-import Hero from '@/components/Hero.vue'
+import TitleHero from '@/components/TitleHero.vue'
 
-@Component({ components: { Hero } })
+@Component({ components: { TitleHero } })
 export default class Links extends Vue {
   mounted () {
     document.title = 'Links - fedyya'
