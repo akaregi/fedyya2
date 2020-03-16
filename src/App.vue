@@ -4,14 +4,11 @@
       <div class="column is-half-desktop">
         <b-navbar spaced>
           <template #brand>
-            <b-navbar-item>
-              <router-link to="/">
+            <b-navbar-item  tag="router-link" :to="{ path: '/' }">
                 <img
-                  class="image"
                   src="https://www.gravatar.com/avatar/6a8bcd15f79dcc2e30138080702b1b09?s=256"
                   alt="akaregi's avatar"
                 />
-              </router-link>
             </b-navbar-item>
           </template>
 
