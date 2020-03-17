@@ -25,12 +25,12 @@ export default class LinkBox extends Vue {
 
 <style lang="scss" scoped>
 @mixin newBoxColor($x, $y, $z, $hoverX: 66, $hoverY: 185, $hoverZ: 131) {
-  box-shadow: 0 .5em 1em -.1em rgba($x, $y, $z, .2), 0 0 0 1px rgba($x, $y, $z, .02);
-  border: 1px solid rgba($x, $y, $z, .1);
+  box-shadow: 0 1px 1em -.1em rgba($x, $y, $z, .2), 0 0 0 1px rgba($x, $y, $z, .02);
+  border: 2px solid rgba($x, $y, $z, .1);
 
   &:hover {
-    box-shadow: 0 .5em 1em -.1em rgba($hoverX, $hoverY, $hoverZ, .2), 0 0 0 1px rgba($hoverX, $hoverY, $hoverZ, .02);
-    border: 1px solid rgba($hoverX, $hoverY, $hoverZ, 1);
+    box-shadow: 0 1px 1em -.1em rgba($hoverX, $hoverY, $hoverZ, .2), 0 0 0 1px rgba($hoverX, $hoverY, $hoverZ, .02);
+    border: 2px solid rgba($hoverX, $hoverY, $hoverZ, 1);
   }
 }
 
