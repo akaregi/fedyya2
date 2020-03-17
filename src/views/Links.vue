@@ -30,19 +30,19 @@
     <h4>一般</h4>
     <LinkBox
       title="みことはねっと（兎月くみ）"
-      lead="スラヴ語派（？）のやべーやつのご登場だ！人たらし（自認）だけどいい人だよ"
+      lead=""
       url="https://mikotoha.net"
     />
 
     <LinkBox
       title="Escapism（にらり）"
-      lead="お絵かきとかタロットとか色々しているらしい。絵が総じてかわいい。"
+      lead=""
       url="https://www.escapism.work"
     />
 
     <LinkBox
       title="homepage（nagiko）"
-      lead="上のマストドンサーバ管理者のページ。足を向けて寝られません。"
+      lead=""
       url="https://bananagikoh.github.io/homepage/pages/mastodon-use/profile.html"
     />
 
@@ -50,14 +50,14 @@
     <LinkBox
       class="is-scrapbox"
       title="mikura-knowledge（かるま）"
-      lead="知見がたくさん載っている。学び続けるのは大事……"
+      lead=""
       url="https://scrapbox.io/mikura-knowledge/"
     />
 
     <LinkBox
       class="is-scrapbox"
       title="hakobe-public（はこべ）"
-      lead="植物の専門家！やべーやつ！その話になるとついてこれないぐらいぐらい詳しい（当然）。"
+      lead=""
       url="https://scrapbox.io/hakobe-public/ "
     />
   </div>
