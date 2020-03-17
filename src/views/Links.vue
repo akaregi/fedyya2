@@ -17,17 +17,15 @@
       url="https://felesitas.cloud/@akane"
     />
 
-    <hr>
-
     <h3>いぇーい</h3>
 
-    <b-notification>
+    <div class="notification">
       <p>🔗 リンク先の方へ： 上のソーシャルメディア的な色付けをご所望でしたらご連絡ください。</p>
-    </b-notification>
+    </div>
 
-    <b-notification>
+    <div class="notification">
       <p>括弧内は作者名です（敬称略）。</p>
-    </b-notification>
+    </div>
 
     <h4>一般</h4>
     <LinkBox
@@ -52,7 +50,7 @@
     <LinkBox
       class="is-scrapbox"
       title="mikura-knowledge（かるま）"
-      lead="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      lead="かるまっちの知見がたくさん載っている。私は脳みそでどうにかしちゃうからなあ（すぐ忘れる）……"
       url="https://scrapbox.io/mikura-knowledge/"
     />
 
@@ -78,9 +76,3 @@ export default class Links extends Vue {
   }
 }
 </script>
-
-<style lang="scss" scoped>
-hr {
-  margin: 3rem 0;
-}
-</style>
