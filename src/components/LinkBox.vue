@@ -2,7 +2,7 @@
   <div class="box">
       <a v-bind:href="url">
         <h4>{{ title }}</h4>
-      <p class="has-text-grey-light">{{ lead }}</p>
+      <p v-if="lead" class="has-text-grey-light">{{ lead }}</p>
       </a>
   </div>
 </template>
@@ -38,6 +38,10 @@ a {
   display: block;
 
   padding: 1.25rem;
+}
+
+h4 {
+  margin: 0;
 }
 
 .box {
